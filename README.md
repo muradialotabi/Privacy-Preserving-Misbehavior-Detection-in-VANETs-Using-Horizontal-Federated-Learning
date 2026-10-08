@@ -47,7 +47,7 @@ The primary objectives are to investigate how data heterogeneity, client scalabi
 The experimental implementation uses Python and can be developed or executed using:
 
 * **Google Colab:** For cloud-based notebook execution.
-* **PyCharm:** For local development, debugging, and experiment management.
+* **PyCharm:** For local development, debugging, and experiment management implemented using Python 3.12 and TensorFlow 2.19.0 with the Keras API.
 
 ## Technologies
 
