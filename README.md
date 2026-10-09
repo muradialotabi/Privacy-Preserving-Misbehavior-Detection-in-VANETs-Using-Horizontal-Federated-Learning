@@ -35,12 +35,11 @@ The primary objectives are to investigate how data heterogeneity, client scalabi
 
 ## Research Resources
 
-* **Research Paper:** [Add your paper URL here](#)
-* **Dataset — VeReMi:** [Dataset website and resources](https://veremi.github.io/)
-* **Google Colab Notebook: [https://drive.google.com/drive/folders/1zIEHkR8zBFMaun0az6RBy6f3AjZ1-UHV?usp=sharing]
-* **PyCharm:** [Download PyCharm](https://www.jetbrains.com/pycharm/)
+*Research Paper:
+* **Paper** :[]
+* **Dataset**:[https://drive.google.com/drive/folders/17BUsj6rkDRB3EgGo840wUHDqs6MHhUge?usp=sharing]
+* **Google Colab Notebook**: [https://drive.google.com/drive/folders/1zIEHkR8zBFMaun0az6RBy6f3AjZ1-UHV?usp=sharing]
 
-> Replace the placeholder links with the actual paper URL and Google Colab notebook URL.
 
 ## Development Environment
 
@@ -66,7 +65,7 @@ The repository includes experimental configurations, training procedures, evalua
 
 If you use this implementation in your research, please cite the associated paper.
 
-**Paper title:**
+
 
 *Privacy-Preserving Misbehavior Detection in Vehicular Ad-Hoc Networks Using Horizontal Federated Learning: An Empirical Study of Data Partitioning Strategies*
 
