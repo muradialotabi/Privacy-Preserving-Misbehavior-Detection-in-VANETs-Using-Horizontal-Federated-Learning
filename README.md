@@ -37,7 +37,7 @@ The primary objectives are to investigate how data heterogeneity, client scalabi
 
 * **Research Paper:** [Add your paper URL here](#)
 * **Dataset — VeReMi:** [Dataset website and resources](https://veremi.github.io/)
-* **Google Colab Notebook:** [Open the experimental code](#)
+* **Google Colab Notebook: [https://drive.google.com/drive/folders/1zIEHkR8zBFMaun0az6RBy6f3AjZ1-UHV?usp=sharing]
 * **PyCharm:** [Download PyCharm](https://www.jetbrains.com/pycharm/)
 
 > Replace the placeholder links with the actual paper URL and Google Colab notebook URL.
