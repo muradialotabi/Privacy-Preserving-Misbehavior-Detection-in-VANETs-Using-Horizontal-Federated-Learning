@@ -97,4 +97,17 @@ python <federated_script>.py --mode hier_fedprox --clients 20 --dropout 0.2 --se
 
 Results (metrics, confusion matrices, communication cost) are saved in `results/`.
 
+## Citation
+
+If you use any part of this repository (code, data, or results) in your research, please cite the associated paper:
+
+```bibtex
+@article{alotaibi2026hfl_vanet,
+  title  = {Privacy-Preserving Misbehavior Detection in Vehicular Ad Hoc Networks Using Horizontal Federated Learning: An Empirical Ablation Study of Data Heterogeneity, Aggregation Strategies, and Client Dropout},
+  author = {Al-Otaibi, Muradi and Felemban, Muhamad},
+  year   = {2026},
+  note   = {Submitted for publication}
+}
+```
+
 
