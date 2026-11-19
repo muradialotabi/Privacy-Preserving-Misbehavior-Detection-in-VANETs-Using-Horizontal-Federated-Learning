@@ -63,5 +63,38 @@ The data is **not** included in this repository because of its size. The partiti
 The partitioned datasets (Quantity-skew non-IID) are too large to be hosted on GitHub. They can be downloaded from Google Drive:
 
 📦 **[Download the data (Google Drive)](https://drive.google.com/drive/folders/17BUsj6rkDRB3EgGo840wUHDqs6MHhUge)**
+## Usage
+
+### 1. Clone and install
+
+```bash
+git clone https://github.com/muradialotabi/Privacy-Preserving-Misbehavior-Detection-in-VANETs-Using-Horizontal-Federated-Learning.git
+cd Privacy-Preserving-Misbehavior-Detection-in-VANETs-Using-Horizontal-Federated-Learning
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2. Get the data
+
+Choose one:
+
+- **Ready-made:** download the partitioned data from [Google Drive](https://drive.google.com/drive/folders/17BUsj6rkDRB3EgGo840wUHDqs6MHhUge) and place it in `data/`.
+- **From raw VeReMi:** generate it with [Data-Pre-Processing](https://github.com/muradialotabi/Data-Pre-Processing).
+
+### 3. Run the experiments
+
+```bash
+# Centralized baseline
+python <centralized_script>.py --seed 42
+
+# Federated: flat FedAvg, 10 clients, quantity-skew non-IID
+python <federated_script>.py --mode flat_fedavg --clients 10 --partition quantity_skew --seed 42
+
+# Federated: hierarchical FedProx, 20 clients, 20% dropout
+python <federated_script>.py --mode hier_fedprox --clients 20 --dropout 0.2 --seed 100
+```
+
+Results (metrics, confusion matrices, communication cost) are saved in `results/`.
 
 
