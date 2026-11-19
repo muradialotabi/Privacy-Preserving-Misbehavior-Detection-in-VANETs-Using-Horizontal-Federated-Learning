@@ -56,8 +56,6 @@ The task is formulated as **6-class classification**: benign behavior plus five 
 The data is **not** included in this repository because of its size. The partitioned data is available via the Google Drive link in the [Data Availability](#data-availability) section below.
 
 
-The data is **not** included in this repository because of its size. The partitioned data is available via the Google Drive link in the [Data Availability](#data-availability) section below.
-
 🔧 **Data pre-processing code** (raw VeReMi JSON → cleaned CSV) is available in a separate repository: [muradialotabi/Data-Pre-Processing](https://github.com/muradialotabi/Data-Pre-Processing).
 
 ## Data Availability
