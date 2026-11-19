@@ -21,7 +21,7 @@ This repository accompanies a paper that **systematically evaluates Horizontal F
 
 | Dimension | Settings |
 |---|---|
-| **Learning paradigm** | Centralized Learning (CL) vs. Horizontal Federated Learning |
+| **Learning paradigm** | Centralized Learning (CL) vs. Horizontal Federated Learning (HFL)|
 | **Aggregation algorithm** | FedAvg, FedProx (µ = 0.01) |
 | **Aggregation topology** | Flat vs. Hierarchical (Flat FedAvg, Flat FedProx, Hierarchical FedAvg, Hierarchical FedProx) |
 | **Data distribution** | IID and strong quantity-skew non-IID |
